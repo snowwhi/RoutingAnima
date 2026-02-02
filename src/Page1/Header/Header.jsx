@@ -2,7 +2,7 @@ import React from 'react';
 import '../../App.css'
 function Header() {
     return (
-        <nav className="fixed top-5 left-1/2 -translate-x-1/2 w-[90%] max-w-6xl px-8 py-4 flex justify-between items-center z-50">
+        <nav className="fixed top-2 left-1/2 -translate-x-1/2 w-[90%] max-w-6xl px-8 py-4 flex justify-between items-center z-50">
             <div className="flex items-center bg-gray-100 p-3 h-full rounded-2xl">
                 <ul className="flex list-none m-0 p-0 gap-8 items-center">
                     <li>
@@ -45,7 +45,7 @@ function Header() {
                         </a>
                     </li>
                     <li>
-                        <button className="px-6 py-3 bg-gray-1c00 text-black rounded-xl font-semibold text-sm cursor-pointer transition-all duration-300 shadow-lg shadow-gray-500/30 hover:-translate-y-0.5 hover:shadow-xl hover:shadow-gray-500/40 active:translate-y-0">
+                        <button className="px-6 py-3 bg-gray-100 text-black rounded-xl font-semibold text-sm cursor-pointer transition-all duration-300 shadow-lg shadow-gray-500/30 hover:-translate-y-0.5 hover:shadow-xl hover:shadow-gray-500/40 active:translate-y-0">
                             Get Started
                         </button>
                     </li>

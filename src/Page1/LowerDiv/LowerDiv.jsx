@@ -6,7 +6,7 @@ import TopRight from './TopRight'
 function LowerDiv() {
     return(
     <>
-      <div className='h-1/2 w-full relative'>
+      <div className='h-1/2 w-full relative  z-30'>
      <Topleft/>
      <TopRight/>
      <BottomLeft/>
